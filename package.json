@@ -1,0 +1,11 @@
+{
+  "name": "my-web-cv",
+  "version": "0.1.0-alpha",
+  "description": "Quick CV",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arturo A. Reyes Vital",
+  "license": "MIT"
+}
