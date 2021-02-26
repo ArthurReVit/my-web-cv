@@ -1,0 +1,13 @@
+/* General styles */
+
+.info-card-data {
+	height: 100%;
+	text-align: start;
+	width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+	.info-card-data {
+		text-align: center;
+	}
+}

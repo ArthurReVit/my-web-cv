@@ -1,0 +1,21 @@
+/* General styles */
+
+.info-card-data {
+	height: 100%;
+	text-align: start;
+	width: 100%;
+}
+
+/* Jobs styles */
+
+.info-card-job-tasks {
+	margin-top: 1vh;
+}
+
+@media screen and (max-width: 1000px) {
+	/* General styles */
+
+	.info-card-data {
+		text-align: center;
+	}
+}

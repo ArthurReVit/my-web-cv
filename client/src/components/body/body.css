@@ -1,0 +1,38 @@
+/* Body styles */
+
+.body-container {
+	height: 100vh;
+	width: 100%;
+}
+
+/* Header styles */
+
+header {
+	background: red;
+	height: 10vh;
+	width: 100%;
+}
+
+/* Content box styles */
+
+.content-box {
+	background: blue;
+	height: 80vh;
+	width: 100%;
+}
+
+/* Footer styles */
+
+footer {
+	background: green;
+	height: 10vh;
+	width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+	/* Content box styles */
+
+	.content-box {
+		height: auto;
+	}
+}
