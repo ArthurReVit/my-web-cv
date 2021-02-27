@@ -1,13 +1,58 @@
-/* General styles */
+/* Personal Brief styles */
 
-.info-card-data {
-	height: 100%;
-	text-align: start;
-	width: 100%;
+.personal-picture {
+	background-image: url(https://media-exp1.licdn.com/dms/image/C5603AQEjw1g2OQxzZQ/profile-displayphoto-shrink_800_800/0/1607207030887?e=1619654400&v=beta&t=sN29luX__jzVxqBML-EnlKGYU9iWXio2aB-MyUoWjX4);
+	background-size: cover;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	height: 18vh;
+	margin-bottom: 3vh;
+	width: 18vh;
+}
+
+/* Skills styles */
+
+.skills-box {
+	margin-bottom: 2vh;
+	margin-top: 2vh;
+}
+
+.skill-navbar {
+	margin: 1vh 0;
 }
 
 @media screen and (max-width: 1000px) {
-	.info-card-data {
+	/* Personal Brief styles */
+
+	.personal-brief {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	/* Skills styles */
+
+	.skills-box {
+		margin-top: 2vh;
+	}
+
+	.skill-navbar {
+		align-items: center;
+		display: inline-flex;
+		justify-content: center;
+		width: 100%;
+	}
+
+	.skill-custom {
 		text-align: center;
+	}
+
+	.skill-badges {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-top: 2vh;
+		width: 100%;
 	}
 }

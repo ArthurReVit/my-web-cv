@@ -2,11 +2,13 @@ import React from 'react';
 
 // Load common components
 
-import { PageHeading, SectionHeading } from '../../common/Headings';
+import { PageHeading } from '../../common/Headings';
 
 // Load feed components
 
-import OverviewEducation from './OverviewSections/OverviewEducation';
+import PersonalBrief from './OverviewSections/PersonalBrief';
+import Skills from './OverviewSections/Skills';
+import Resume from './OverviewSections/Resume';
 
 // Load styles
 
@@ -14,16 +16,15 @@ import './modules.css';
 
 const Overview = () => {
 	return (
-		<div className='module-box'>
-			<PageHeading content='INFORMACIÓN GENERAL' />
+		<div className='module-box edu-job-box'>
+			<PageHeading content='VISIÓN GENERAL' />
 			<div className='module-box-info'>
 				<section className='module-box-transparent'>
-					<SectionHeading content='EDUCACIÓN' />
-					<OverviewEducation />
+					<PersonalBrief />
 				</section>
 				<section className='module-box-relevant'>
-					<section className='infobox'>EXPERIENCIA</section>
-					<section className='infobox'>PROYECTOS</section>
+					<Resume />
+					<Skills />
 				</section>
 			</div>
 		</div>

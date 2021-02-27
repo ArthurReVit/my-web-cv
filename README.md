@@ -1,3 +1,23 @@
+v0.3.0-alpha
+
+- Created Skills, Brief and Resume components already displaying the required info. The full list of components is:
+
+  Location: src/components/body
+
+  - Overview
+  - PersonalBrief
+  - Resume
+  - Skills
+
+- The new common components created to fill the previous mentioned ones are:
+
+  Location: src/components/common
+
+  - Badges (new badge added)
+  - Buttons
+
+- Finally, the aboutMe module holding the data feeding the overview section was created. It can be found under src/info
+
 v0.2.0-alpha
 
 - Created education and job components, already displaying the required info. The full list of components is:

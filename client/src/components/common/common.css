@@ -40,6 +40,18 @@
 	letter-spacing: 2px;
 }
 
+.skill-badge {
+	background: #202020;
+	border-radius: 25px;
+	color: #fff;
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.7vh;
+	margin-right: 0.5vw;
+	margin-top: 1vh;
+	padding: 0.5vh 1vh;
+}
+
 /* Textboxes styles */
 
 .text-box {
@@ -64,6 +76,31 @@
 .box-divider {
 	margin: 1.5vh 0;
 	width: 100%;
+}
+
+/* Buttons styles */
+
+.carousel-button {
+	background: none;
+	border: 1px solid #000;
+	border-radius: 50px;
+	color: #000;
+	cursor: pointer;
+	font-family: 'Roboto', sans-serif;
+	font-size: 2vh;
+	font-weight: bold;
+}
+
+.carousel-button:hover {
+	background: #202020;
+	border: 1px solid #202020;
+	color: #f9f9f9;
+}
+
+.carousel-button:active {
+	background: #202020;
+	border: 1px solid #202020;
+	color: #f9f9f9;
 }
 
 @media screen and (max-width: 1000px) {
@@ -91,6 +128,14 @@
 
 	.badge-divider {
 		display: none;
+	}
+
+	/* Buttons styles */
+
+	.carousel-button {
+		font-size: 3vh;
+		height: 5vh;
+		width: 5vh;
 	}
 }
 
@@ -126,4 +171,8 @@
 
 .border-grey {
 	border: 0.1px solid #808080;
+}
+
+.centered {
+	margin: 0 1vw;
 }

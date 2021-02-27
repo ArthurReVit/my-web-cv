@@ -1,5 +1,7 @@
 import React from 'react';
 
+// Load common components
+
 import { PageHeading, SectionHeading } from '../../common/Headings';
 
 // Load feed components
