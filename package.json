@@ -1,6 +1,6 @@
 {
 	"name": "my-web-cv",
-	"version": "0.3.0-alpha",
+	"version": "0.4.0-alpha",
 	"description": "Quick CV",
 	"main": "server.js",
 	"scripts": {

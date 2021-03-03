@@ -8,9 +8,33 @@
 /* Header styles */
 
 header {
-	background: red;
+	align-items: center;
+	background: #202020;
+	box-sizing: border-box;
+	display: flex;
 	height: 10vh;
+	padding: 0 2vw;
 	width: 100%;
+}
+
+.header-name {
+	box-sizing: border-box;
+	color: #808080;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 4vh;
+	letter-spacing: 3px;
+	padding: 0 4vw;
+	text-align: start;
+	width: 100%;
+}
+
+.header-button-nav {
+	align-items: center;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	padding-right: 3vh;
+	width: 500px;
 }
 
 /* Content box styles */

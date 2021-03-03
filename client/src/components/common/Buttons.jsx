@@ -11,3 +11,11 @@ export const CarouselButton = (props) => {
 		</button>
 	);
 };
+
+export const HeaderButton = (props) => {
+	return (
+		<button className={`header-button ${props.hidden}`} onClick={props.onClick}>
+			{props.content}
+		</button>
+	);
+};
